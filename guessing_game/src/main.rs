@@ -11,11 +11,15 @@ fn main() {
 
 	println!("Please enter your guess.");
 
+	let apples = 5;
+
+	let bananas = 7;
+	
+	println!(" apples = {apples} and bananas + 2 = {}" , bananas + 2);
+	
 	let mut guess = String::new();
 
-	io::stdin()
-		.read_line(&mut guess)
-		.expect("Failed to read line");
+	io::stdin().read_line(&mut guess).expect("Failed to read line ");
 
 	println!("You guessed : {guess}");
 	
