@@ -6,7 +6,8 @@ This repository is dedicated to exploring and testing the concepts, guidelines, 
 
 - **hello_cargo**: An introduction to using Cargo, Rust's build system and package manager.
 - **hello_everyone**: A variation of the classic "Hello, World!" project.
-- **hello_world**: (Placeholder) Basic Rust entry point.
+- **hello_world**: Basic Rust entry point.
+- **guessing_game**: A simple interactive console game to learn about variables, input, and matching.
 
 ## Purpose
 
